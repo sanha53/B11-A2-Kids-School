@@ -14,6 +14,7 @@
     width: 202px;
     height: 62px;
     display: flex;
+    margin-left: 70px;
   }
   .logo-img{
     width: 62px;
@@ -70,7 +71,32 @@ li a {
     display: flex;
     font-size:20px;
     font-weight: bold;
-
+}
+.empowering {
+width: 640px;
+height: 331px;
+text-align: left;
+margin: 80px;
+}
+.empowering-h2 {
+font-weight: bold;
+font-size: 46px;
+}
+.enroll{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+}
+.kid{
+    width: 468px;
+    height: 575px;
+}
+.part-one{
+    display: flex;
+    height: 575px;
+    width: 1158px;
 }
 @media screen and (width:430px){
     .nav-title{
@@ -80,6 +106,17 @@ li a {
         border-color: orange;
         display: flex;
     }
+    ul{
+        display: none;
+    }
+
+        .btn{
+            display: none;
+        }
+        .logo-text{ 
+            display:none;
+    
+        }
     .logo-img{
         width: 46px;
         height: 46px;
@@ -102,14 +139,4 @@ li a {
         border-radius: 5px;
         margin-top: 8px;
      }
-    }
-    .btn{
-        display: none;
-    }
-    ul{
-        display: none;
-    }
-    .logo-text{ 
-        display:none;
-
     }

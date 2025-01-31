@@ -121,29 +121,25 @@ font-size: 46px;
 }
 .curriculum-kinder{
     width: 367px;
-    height: 420px;
+    height: 520px;
     text-align: center;
     border-radius: 15px;
-    background-color: #DEF5FF;
-    border-color: #DEF5FF;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 20), white);
 }
 .curriculum-middle{
     width: 367px;
-    height: 420px;
+    height: 520px;
     text-align: center;
     border-radius: 15px;
-    background-color: #F2E8FF;
-    border-color: #F2E8FF;
-    
+    background: linear-gradient(to bottom, #F2E8FF, white);
    
 }
 .curriculum-elementary {
     width: 367px;
-    height: 420px;
+    height: 520px;
     text-align: center;
     border-radius: 15px;
-    background-color: #FFF2DC;
-    border-color: #FFF2DC;
+    background: linear-gradient(to bottom, rgba(255, 242, 220, 20), white);
  
  }   
 
@@ -153,8 +149,9 @@ font-size: 46px;
     color: #64C8FF;
     background-color: white;
     border-color:white;
-    height: 30px;
+    height: 80px;
     width: 100px;
+    border: none;
 }
 .btn2{
     font-size: 15px;
@@ -162,8 +159,9 @@ font-size: 46px;
     color: #F0AA00;
     background-color: white;
     border-color:white;
-    height: 30px;
+    height: 80px;
     width: 100px;
+    border: none;
 }
 .btn3{
     font-size: 15px;
@@ -171,8 +169,9 @@ font-size: 46px;
     color: #8700FF;
     background-color: white;
     border-color:white;
-    height: 30px;
+    height: 80px;
     width: 100px;
+    border: none;
 }
 .curriculum-img{
     width: 110px;
@@ -182,9 +181,29 @@ font-size: 46px;
 .description{
     padding: 20%;
 }
+.round{
+    display: flex;
+    justify-items: center;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
 
-
-
+.arrow{
+    font-size: 40px;
+    color:white;
+}
 
 
 

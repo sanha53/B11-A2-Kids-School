@@ -110,7 +110,8 @@ font-size: 46px;
     height: 57px;
     width: 460px;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 32%;
+    margin-top: 50px;
 }
 .part-two{
     display: flex;
@@ -206,13 +207,42 @@ font-size: 46px;
 }
 
 
+.our-stories{
+    width: 1440px;
+    height: 1018px;
+    background: linear-gradient(rgba(255, 0, 0, 0.048), rgba(255, 0, 0, 0.267)), url(assets/bg.png);
+    display: flex;
+}
 
-
-
-
-
-
-
+.story1{
+    width: 540px ;
+    height: 630px;
+    border-radius: 16px;
+}
+.img-story1{
+    width: 540px;
+    height: 337px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.stories{
+    background-color: white;
+    margin-top: -50px;
+    padding: 40px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px; 
+}
+.btn-story1{
+    width: 174px;
+    height: 47px;
+    background-color: #64C8FF;
+    color: white;
+    border-color: #64C8FF;
+    border-style: none;
+    border-radius: 47px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
 
 
 
@@ -295,7 +325,18 @@ font-size: 46px;
         margin-right: 75px;
         gap: 5px;
     }
+.part-two{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
+.curriculum-elementary {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.circle{
+    display: none;
+}
 
 
 
